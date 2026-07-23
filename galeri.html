@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Galeri - Shoes Shop</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family:Arial;
+            background:#f4f4f4;
+        }
+
+        header{
+            background:
+            linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+            url("sepatu.jpg");
+            background-size:cover;
+            background-position:center;
+            color:white;
+            text-align:center;
+            padding:90px 30px;
+        }
+
+        header h1{
+            font-size:50px;
+            margin-bottom:10px;
+        }
+
+        header p{
+            font-size:22px;
+        }
+
+        .menu{
+            background:#222;
+            text-align:center;
+            padding:15px;
+        }
+
+        .menu a{
+            color:white;
+            text-decoration:none;
+            padding:15px 25px;
+        }
+
+        .menu a:hover{
+            background:#ff6600;
+            border-radius:5px;
+        }
+
+        .container{
+            width:90%;
+            margin:auto;
+            padding:30px;
+        }
+
+        h2{
+            text-align:center;
+            color:#ff6600;
+            margin-bottom:30px;
+        }
+
+        .gallery{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            gap:25px;
+        }
+
+        .card{
+            background:white;
+            padding:15px;
+            border-radius:10px;
+            box-shadow:0 0 15px rgba(0,0,0,0.15);
+            text-align:center;
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-8px);
+        }
+
+        .gallery img{
+            width:300px;
+            height:200px;
+            border-radius:10px;
+        }
+
+        .card h3{
+            color:#ff6600;
+            margin:15px 0 10px;
+        }
+
+        .card p{
+            color:#555;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:30px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Shoes Shop</h1>
+
+<p>Koleksi Sepatu Terbaik & Berkualitas</p>
+
+</header>
+
+<div class="menu">
+<a href="index.html">Beranda</a>
+<a href="profil.html">Profil</a>
+<a href="galeri.html">Galeri</a>
+<a href="kontak.html">Kontak</a>
+</div>
+
+<div class="container">
+
+<h2>Galeri Produk Shoes Shop</h2>
+
+<div class="gallery">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=200&fit=crop">
+<h3>Nike Air Max</h3>
+<p>Rp1.800.000</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1543508282-6319a3e2621f?w=300&h=200&fit=crop">
+<h3>Adidas Ultraboost</h3>
+<p>Rp2.000.000</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=300&h=200&fit=crop">
+<h3>Puma RS-X</h3>
+<p>Rp1.500.000</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=300&h=200&fit=crop">
+<h3>Converse</h3>
+<p>Rp900.000</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=300&h=200&fit=crop">
+<h3>New Balance</h3>
+<p>Rp1.300.000</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=300&h=200&fit=crop">
+<h3>Vans Old Skool</h3>
+<p>Rp950.000</p>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+Copyright © 2026 Shoes Shop
+
+</footer>
+
+</body>
+
+</html>

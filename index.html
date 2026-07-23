@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shoes Shop</title>
+
+    <style>
+        body{
+            font-family:Arial;
+            margin:0;
+            background:#f4f4f4;
+        }
+
+        header{
+            background:
+            linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+            url("sepatu.jpg");
+            background-size:cover;
+            background-position:center;
+            color:white;
+            text-align:center;
+            padding:100px 30px;
+        }
+
+        header h1{
+            font-size:55px;
+            margin-bottom:10px;
+        }
+
+        header p{
+            font-size:22px;
+        }
+
+        .menu{
+            background:#222;
+            text-align:center;
+            padding:15px;
+        }
+
+        .menu a{
+            color:white;
+            text-decoration:none;
+            padding:15px 25px;
+        }
+
+        .menu a:hover{
+            background:#ff6600;
+            border-radius:5px;
+        }
+
+        .content{
+            width:80%;
+            margin:auto;
+            padding:20px;
+            box-sizing:border-box;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:30px;
+        }
+
+        #judul{
+            color:#ff6600;
+            font-size:35px;
+        }
+
+        .highlight{
+            color:#ff6600;
+            font-weight:bold;
+        }
+
+        .promo{
+            background:#fff3e6;
+            padding:20px;
+            border-left:6px solid #ff6600;
+            border-radius:8px;
+            margin-top:20px;
+        }
+
+        .formulir{
+            margin-top:25px;
+            border:1px solid #ddd;
+            background:white;
+            padding:20px;
+            border-radius:8px;
+        }
+
+        input,select{
+            width:250px;
+            padding:8px;
+        }
+
+        input[type=submit]{
+            background:#ff6600;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            cursor:pointer;
+        }
+
+        input[type=submit]:hover{
+            background:#e65c00;
+        }
+
+        svg{
+            margin-top:20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Shoes Shop</h1>
+    <p>Toko Sepatu Modern & Berkualitas</p>
+</header>
+
+<div class="menu">
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="kontak.html">Kontak</a>
+</div>
+
+<div class="content">
+
+<h2 id="judul">Koleksi Sepatu</h2>
+
+<p>
+Selamat datang di
+<span class="highlight">Shoes Shop</span>.
+Kami menyediakan berbagai jenis sepatu dengan kualitas terbaik.
+</p>
+
+<br>
+
+<p>
+Pilihan produk:
+<span class="highlight">Sneakers</span>,
+<span class="highlight">Running Shoes</span>,
+<span class="highlight">Casual Shoes</span>.
+</p>
+
+<div class="promo">
+    <h3>🔥 Promo Spesial</h3>
+    <p>
+        Diskon hingga <b>50%</b> untuk produk pilihan.
+        Buruan belanja sekarang sebelum kehabisan!
+    </p>
+</div>
+
+<div class="formulir">
+
+    <h3>Form Pemesanan</h3>
+
+    <form>
+
+        <label>Nama</label><br>
+        <input type="text"><br><br>
+
+        <label>Jenis Sepatu</label><br>
+
+        <select>
+            <option>Sneakers</option>
+            <option>Running Shoes</option>
+            <option>Casual Shoes</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Pesan">
+
+    </form>
+
+</div>
+
+<h3>Logo Shoes Shop (SVG)</h3>
+
+<svg width="250" height="180">
+    <path d="M30 110 L90 70 L140 90 L210 100 L220 120 L40 120 Z"
+          fill="#ff6600"
+          stroke="black"
+          stroke-width="2"/>
+
+    <circle cx="95" cy="115" r="4" fill="white"/>
+    <circle cx="115" cy="115" r="4" fill="white"/>
+    <circle cx="135" cy="115" r="4" fill="white"/>
+    <circle cx="155" cy="115" r="4" fill="white"/>
+</svg>
+
+</div>
+
+<footer>
+    Copyright © 2026 Shoes Shop
+</footer>
+
+</body>
+</html>
